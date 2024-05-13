@@ -14,7 +14,7 @@
 }
 
 .partners-heading {
-    font-family: Work Sans;
+    font-family: "Work Sans",sans-serif;
     font-size: 16px;
     font-weight: 700;
     line-height: 20px;
@@ -32,7 +32,7 @@
 }
 
 .partners-text-subtext {
-    font-family: Work Sans;
+    font-family: "Work Sans",sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 25px;
@@ -48,7 +48,7 @@
 .learn-btn {
     width: 170px;
     height: 48px;
-    font-family: Work Sans;
+    font-family: "Work Sans",sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 25px;
@@ -60,4 +60,14 @@
 }
 .learn-btn:hover{
     cursor: pointer;
+}
+
+@media only screen and (max-width:375px) {
+    .partners{
+        padding: 22px 20px 0px;
+    }
+    .partners-logo{
+        display: flex;
+        flex-direction: column;
+    }
 }

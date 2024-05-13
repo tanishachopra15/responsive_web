@@ -7,7 +7,7 @@ const Features = () => {
     return (
         <div className='features'>
             <div className='features-box'>
-                <img src={feature1} alt=''></img>
+                <img src={feature1} className='introimage' alt=''></img>
                 <div className='features-text-box'>
                     <div className='features-text-heading'>Lorem ipsum dolor sit amet consectetur </div>
                     <div className='features-text-subtext'>Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br />
@@ -24,7 +24,7 @@ const Features = () => {
                         error ipsum, voluptate culpa nesciunt delectus iste?</div>
                     <button className='learn-btn'>Learn More</button>
                 </div>
-                <img src={feature2} alt=''></img>
+                <img src={feature2} className='introimage' alt=''></img>
             </div>
         </div>
     )

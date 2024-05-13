@@ -32,7 +32,7 @@
 }
 
 .team-text-subtext {
-    font-family: Work Sans;
+    font-family: "Work Sans",sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 40px;
@@ -62,9 +62,18 @@
 
 .member-position {
     color: #212529BF;
-    font-family: Work Sans;
+    font-family: "Work Sans",sans-serif;
     font-size: 15px;
     font-weight: 400;
     line-height: 18.75px;
     text-align: left;
+}
+@media only screen and (max-width : 375px){
+    .teams{
+        padding: 40px 20px 39px;
+    } 
+    .team-member{
+        display: flex;
+        flex-direction: column;
+    }
 }

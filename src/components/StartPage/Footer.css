@@ -1,8 +1,17 @@
-.footer{
+.footer {
     display: flex;
     align-items: center;
     background-color: #74C69D;
     color: white;
     justify-content: space-between;
     padding: 55px 130px;
+}
+
+@media only screen and (max-width : 375px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        text-wrap: nowrap;
+        gap: 20px;
+    }
 }

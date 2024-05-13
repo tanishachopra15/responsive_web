@@ -31,13 +31,13 @@ const Team = () => {
                     <img src={designer} alt=''></img>
                     <div className='member-name'>Alexandra Stolz
                     </div>
-                    <div className='member-position'>Designer</div>
+                    <div className='member-position'>DESIGNER</div>
                 </div>
                 <div className='member-details'>
                     <img src={developer} alt=''></img>
                     <div className='member-name'>Janet Bray
                     </div>
-                    <div className='member-position'>Developer</div>
+                    <div className='member-position'>DEVELOPER</div>
                 </div>
             </div>
             <button className='learn-btn'>View Team</button>
