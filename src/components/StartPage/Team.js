@@ -9,9 +9,9 @@ const Team = () => {
     return (
         <div className='teams'>
             <div className='team-text-box'>
-                <div className='team-heading'>TEAM</div>
-                <div className='team-text-heading'>Our Talents</div>
-                <div className='team-text-subtext'>Lorem ipsum, dolor sit amet consectetur
+                <div className='heading'>TEAM</div>
+                <div className='text-heading'>Our Talents</div>
+                <div className='text-subtext'>Lorem ipsum, dolor sit amet consectetur
                     <br /> Suscipit nemo hic quos, ab,</div>
             </div>
             <div className='team-member'>

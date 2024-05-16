@@ -1,29 +1,11 @@
 import React from 'react'
-import startlogo from '../../images/startlogo.png'
 import introimage from '../../images/introimage.png'
-import menu from '../../images/menu.png'
 import './Intro.css'
+import Navbar from './Navbar'
 
 const Intro = () => {
-  function showMenu(){
-      const menu = document.querySelector('.navbar-options');
-      menu.classList.toggle('show');
-  }
-
   return (
-    <div className='intro-page'>  
-      <div className='navbar'>
-        <nav className='navbar-logo'><img src={startlogo} alt=''></img>Start</nav>
-        <div className='navbar-options'>
-          <nav>Home</nav>
-          <nav>Portfolio</nav>
-          <nav>Services</nav>
-          <nav>Contact</nav>
-        </div>
-        <div onClick={showMenu}>
-          <img src={menu} className='menu-icon' alt=''></img>
-        </div>
-      </div>
+    <div className='intro-page'> 
       <div className='introduction'>
         <div className='introduction-text-box'>
           <div className='introduction-text-greet'>WELCOME</div>

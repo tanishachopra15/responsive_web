@@ -1,0 +1,85 @@
+.services {
+    padding: 35px 107px 135px;
+}
+
+.services-text-box {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.plans {
+    display: flex;
+    padding-top: 78px;
+    gap: 105px;
+}
+
+.plan-card {
+    box-shadow: 3px 4px 12px 1px #00000040;
+    padding: 46px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plan-type {
+    font-family: "Work Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-align: left;
+}
+
+.plan-price-details {
+    display: flex;
+    align-items: center;
+}
+
+.plan-price {
+    font-family: "Work Sans", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: left;
+
+}
+
+.plan-time {
+    font-family: "Work Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-align: left;
+    color: #21252980;
+}
+
+.plan-feature {
+    padding: 52px 76px 45px 0px;
+}
+
+.plan-feature-details {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    margin-bottom: 11px;
+    font-family: "Work Sans",sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-align: center;
+
+}
+
+@media screen and (max-width:375px) {
+    .services {
+        padding: 20px;
+    }
+
+    .plans {
+        display: flex;
+        flex-direction: column;
+    }
+    .plan-feature {
+        padding: 52px 0px;
+    }
+}

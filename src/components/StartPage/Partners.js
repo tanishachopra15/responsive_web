@@ -10,9 +10,9 @@ const Partners = () => {
   return (
     <div className='partners'>
       <div className='partners-text-box'>
-        <div className='partners-heading'>PARTNERS</div>
-        <div className='partners-text-heading'>Lorem Ipsum Dolor</div>
-        <div className='partners-text-subtext'>Lorem ipsum, dolor sit amet consectetur
+        <div className='heading'>PARTNERS</div>
+        <div className='text-heading'>Lorem Ipsum Dolor</div>
+        <div className='text-subtext'>Lorem ipsum, dolor sit amet consectetur
           <br/>adipisicing elit.</div>
       </div>
       <div className='partners-logo'>

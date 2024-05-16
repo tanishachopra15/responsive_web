@@ -1,5 +1,5 @@
 .intro-page {
-    padding: 35px 130px 80px;
+
     background-color: #74C69D;
     color: white;
     display: flex;
@@ -7,39 +7,8 @@
     gap: 40px;
 }
 
-.navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.navbar-logo {
-    display: flex;
-    align-items: center;
-    gap: 18px;
-    font-family: "Work Sans", sans-serif;
-    font-size: 40px;
-    font-weight: 500;
-    line-height: 50px;
-}
-
-.navbar-options {
-    padding: 12px 0px;
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    font-family: "Work Sans", sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 25px;
-    text-align: right;
-}
-
-.navbar-options nav:hover {
-    cursor: pointer;
-}
-
 .introduction {
+    padding: 5px 130px ;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -96,41 +65,19 @@
 .explore-btn:hover {
     cursor: pointer;
 }
-.menu-icon{
-    display: none;
-}
-
 @media only screen and (max-width : 375px) {
     .intro-page{
         padding: 17px 20px 40px;
     }
-    .navbar-options{
-        display: none;
-    }
     .introduction {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .introimage {
         width: 300px;
         height: 196.61px;
     }
-    .menu-icon{
-        display: flex;
-    }
-    .menu-icon:hover{
-        cursor: pointer;
-    }
-    .navbar-options.show {
-        display: flex;
-        flex-direction: column;
-        background-color: #333;
-        position: absolute;
-        top: 60px;
-        right: 0;
-        padding: 10px;
-        border-radius: 10px;
-      }
 
+   
 }
